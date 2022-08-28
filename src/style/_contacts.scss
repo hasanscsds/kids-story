@@ -1,0 +1,123 @@
+.contacts{
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
+   padding: 0;
+   gap: 20px;
+   .contacts__item {
+      .contact__number {
+         font-size: 2.5rem;
+         span {
+            margin: 0 auto 0 10%;
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.25rem;
+         }
+      }
+      .button{
+         display: none;
+      }
+   }
+}
+.contacts__form {
+   max-width: 844px!important;
+   height: fit-content;
+   background: rgba(255, 246, 209, 1);
+   justify-content: space-between;
+   padding: 38px 54px 57px!important;
+   position: initial;
+   .form__label,
+   .form__text {
+      width: 100%;
+      color: $text_color;
+   }
+   .form__label{
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+   }
+   .banner__form__content__details {
+      width: 100%;
+      gap: 22px;
+      input {
+         margin: 0;
+         &[type="submit"] {
+            max-width: 100%;
+            width: 100%;
+            background: $basic_red;
+            color: $white_color;
+         }
+      }
+      .control{
+         color: $white_color;
+      }
+   }
+}
+@media screen and (max-width: $maxMobile){
+   .contacts{
+      align-items: center;
+      .contacts__item {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         .navbar-brand {
+            img {
+               max-width: 130px;
+            }
+         }
+         .contact__number {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 23px;
+            span {
+               margin: 0 auto;
+            }
+         }
+         .button{
+            display: initial;
+         }
+         .address__link {
+            max-width: 80%;
+            text-align: center;
+         }
+      }
+   }
+   .contacts__form {
+      max-width: 844px;
+      width: 844px;
+      height: fit-content;
+      background: rgba(255, 246, 209, 1);
+      justify-content: space-between;
+      padding: 32px 18px 50px!important;
+      position: initial;
+      .form__label,
+      .form__text {
+         width: 100%;
+         color: $text_color;
+      }
+      .form__label{
+         font-weight: 700;
+         font-size: 32px;
+         line-height: 39px;
+      }
+      .banner__form__content__details {
+         width: 100%;
+         gap: 6px;
+
+         input {
+            margin: 0;
+            &[type="submit"] {
+               margin-top: 18px;
+               background: $basic_red;
+               color: $white_color;
+               order: 2;
+            }
+         }
+         .control{
+            color: $white_color;
+            order: 1;
+         }
+      }
+   }
+}

@@ -1,0 +1,59 @@
+
+/*FOOTER SECTION STYLE START*/
+.app__footer {
+   &__top {
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      flex-wrap: wrap;
+      &__widget {
+         width: fit-content;
+         &__label {
+            margin: 2.5em 0 1.25em;
+            color: $text_color;
+         }
+         &__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            gap: 5px;
+            padding: 0;
+            &__item{
+               &__link {
+                  color: $text_color;
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 15px;
+               }
+            }
+         }
+      }
+   }
+   
+   &__bottom {
+      width: 100%;
+      padding: 1em;
+      text-align: center;
+   }
+
+   @media screen and (max-width: $maxMobile) {
+      &__top {
+         &__widget {
+            width: 100%;
+            &:not(:first-child) {
+               display: none;
+            }
+         }
+      }
+      &__bottom {
+         padding: 0;
+         .copyrights {
+            font-size: 12px;
+            line-height: 15px;
+         }
+      }
+   }
+}
+/*FOOTER SECTION STYLE END*/

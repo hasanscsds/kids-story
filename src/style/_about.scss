@@ -1,0 +1,130 @@
+/*ABOUT SECTION STYLE START*/
+.about__center{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   
+}
+.about__details{
+   p, li{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      &.about__text{
+         max-width: 100%;
+      }
+      &::marker{
+         font-size: 12px
+      }
+   }
+   .about__text {
+      max-width: 80%;
+      font-weight: 700;
+      color: $basic_red;
+   }
+   p,
+   .about__list{
+      margin: 15px 0;
+      .about__list__item {
+         color: $text_color;
+         margin: 0 20px;
+         list-style: initial;
+      }
+   }
+}
+.about__our__center__section{
+   .about__our__center{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      gap: 20px;
+      padding: 0;
+      &__item{
+         max-width: 32%;
+         flex-grow: 1;
+         width: 100%;
+         overflow: hidden;
+         img{
+            margin: 0 0 33px;
+            &[src=""]{
+               display: none;
+            }
+         }
+         &__details{
+            &__label{
+               margin: 0 0 15px;
+               font-weight: 700;
+               font-size: 24px;
+               line-height: 29px;
+               color: $basic_color;
+            }
+            &__text{
+               font-weight: 500;
+               font-size: 14px;
+               line-height: 17px;
+               color: $text_color;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: $maxMobile){
+   .about__center{
+      .avatar__item{
+         gap: 0;
+         .avatar__img {
+            max-width: 100%;
+            width: 100%;
+         }
+         .avatar__details{
+            padding: 0;
+            .avatar__position{
+               display: block;
+            }
+         }
+      }
+   }
+   .about__details{
+      p{
+         font-weight: 500;
+         font-size: 12px;
+         line-height: 15px;
+         margin: 10px 0; 
+      }
+      .about__list {
+         padding: 0;
+         .about__list__item {
+            font-size: 10px;
+            line-height: 12px;
+            &::marker {
+               color: $text_color;
+            }
+         }
+      }
+   }
+   .about__our__center__section{
+      .about__our__center{
+         flex-wrap: wrap;
+         gap: 0;
+         padding: 0;
+         &__item{
+            max-width: 100%;
+            &__details{
+               &__label{
+                  margin: 24px 0 6px;
+                  font-size: 20px;
+                  line-height: 24px;
+               }
+               &__text{
+                  font-size: 12px;
+                  line-height: 15px;
+               }
+            }
+         }
+      }
+   }
+
+}
+/*ABOUT SECTION STYLE END*/

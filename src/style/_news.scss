@@ -1,0 +1,133 @@
+.news{
+   display: flex;
+   justify-content: start;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+.news__item{
+   max-width: 428px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   &__details{
+      &__date{
+         font-weight: 500;
+         font-size: 12px;
+         line-height: 15px;
+         color: $text-color;
+      }
+      &__label{
+         font-weight: 700;
+         font-size: 20px;
+         line-height: 24px;
+         color: $basic-color;
+      }
+      &__text{
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 17px;
+         text-align: start;
+         color: $text-color;
+         &.news__full__text{
+            display: none;
+         }
+      }
+      .button{
+         width: 100%!important;
+         border: 1px solid $basic-color;
+         &:active,
+         &:hover,
+         &:focus{
+            border: unset;
+         }
+      }
+   }
+}
+.news__headline{
+   margin: 50px 0;
+   .news__item{
+      max-width: 100%!important;
+      width: 100%;
+
+      &.d-flex{
+         justify-content: start;
+         flex-direction: row;
+         gap: 20px;
+         flex-wrap: wrap;
+         .news__item__bg{
+            max-width: 30%;
+         }
+         .news__item__details{
+            width: 65%;
+         }
+      }
+      &__details{
+         &__label{
+            font-size: 40px;
+            line-height: 49px;
+         }
+         &__text{
+            font-size: 16px;
+            line-height: 20px;
+            &.news__full__text{
+               display: initial;
+            }
+         }
+         .source__btn{
+            display: none!important;
+         }
+      }
+   }
+
+}
+
+@media screen and (max-width: $maxMobile){
+   .news{
+      gap: 27px;
+   }
+   .news__item{
+      width: 100%;
+      &__details{
+         &__date{
+            font-size: 10px;
+            line-height: 12px;
+         }
+         &__label{
+            font-size: 16px;
+            line-height: 20px;
+         }
+         &__text{
+            font-size: 12px;
+            line-height: 15px;
+         }
+      }
+   }
+   .news__headline{
+      margin: 27px 0;
+      .news__item{
+         background: transparent;
+         &.d-flex{
+            justify-content: start;
+            flex-direction: row;
+            gap: 20px;
+            flex-wrap: wrap;
+            .news__item__bg{
+               max-width: 100%;
+            }
+            .news__item__details{
+               width: 100%;
+            }
+         }
+         &__details{
+            &__label{
+               font-size: 16px;
+               line-height: 20px;
+            }
+            &__text{
+               font-size: 12px;
+               line-height: 15px;
+            }
+         }
+      }
+   }
+}

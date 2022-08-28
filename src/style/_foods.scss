@@ -1,0 +1,116 @@
+.foods{
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   height: fit-content;
+   flex-wrap: nowrap;
+
+   .foods__list__box{
+      flex-grow: 1;
+      margin: 0;
+      .foods__item{
+         .foods__time{
+            margin-bottom: 15px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #79BC6D;
+         }
+         .foods__list{
+            margin-bottom: 25px;
+            .foods__list__item{
+               display: flex;
+               justify-content: space-between;
+               align-content: end;
+               border-bottom: 2.5px dotted $basic-red;
+               &:not(:last-child){
+                  margin-bottom: 9px;
+               }
+               .foods__label,
+               .foods__weight{
+                  font-size: 14px;
+                  line-height: 17px;
+               }
+               .foods__label{
+                  min-width: 50%;
+                  font-weight: 700;
+                  color: $basic-color;
+               }
+               .foods__weight{
+                  text-align: end;
+                  font-weight: 500;
+                  color: $text-color;
+                  // float: right;
+               }
+            }
+         }
+      }
+   }
+   .foods__images__box{
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      align-content: start;
+      gap: 30px;
+      flex-wrap: wrap;
+      .foods__images__item{
+         width: 22%;
+         height: fit-content;
+         overflow: hidden;
+         @include borderRadius;
+         &:first-child{
+            width: 100%;
+            img{
+               height: fit-content;
+            }
+         }
+      }
+   }
+   @media screen and (max-width: $maxMobile){
+      flex-wrap: wrap;
+      .foods__list__box{
+         width: 100%;
+         .foods__item{
+            .foods__time{
+               margin-bottom: 15px;
+               font-size: 16px;
+               line-height: 20px;
+            }
+            .foods__list{
+               margin-bottom: 12px;
+               .foods__list__item{
+                  .foods__label,
+                  .foods__weight{
+                     font-size: 12px;
+                     line-height: 15px;
+                  }
+                  .foods__label{
+                     color: $basic-color;
+                  }
+                  .foods__weight{
+                     color: $text-color;
+                  }
+               }
+            }
+         }
+      }
+      .foods__images__box{
+         width: 100%;
+         gap: 10px;
+         .foods__images__item{
+            width: 48.2%;
+            img{
+               height: 100px;
+            }
+         }
+      }
+   }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+.app__welcome__section {
+   margin: 0 auto;
+   background: $basic_yellow;
+   min-height: 558px;
+   background-image: url("../images/icons/noroot 2.png"),
+      url("../images/icons/1614600055_48-p-shkola-na-belom-fone-61 1.png"),
+      url("../images/icons/n.png"), url("../images/icons/Group dots1.png"),
+      url("../images/icons/Ver (1).png"), url("../images/icons/Vect2.png"),
+      url("../images/icons/Vectovv.png");
+   background-repeat: no-repeat;
+   background-position: 20% 100%, 60% 100%, 30% 100%, 25% 100%, 0 100%, 0 0,
+      72% 0;
+   background-size: auto, auto, auto, auto, auto, auto, auto;
+   @include borderRadius;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: start;
+   .welcome__banner__slider {
+      .slick__item {
+         margin-top: 7em;
+         h1,
+         p {
+            color: $text_color;
+         }
+         h1 {
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 117px;
+         }
+         p {
+            max-width: 75%;
+            margin-bottom: 3em;
+            font-weight: 600;
+            font-size: 2.25rem;
+            line-height: 2.75rem;
+         }
+      }
+      .arrow {
+         position: absolute;
+         top: 80%;
+         &.arrow__left {
+            left: 0;
+         }
+         &.arrow__right {
+            left: 8%;
+         }
+         &:active,
+         &:focus,
+         &:hover {
+            background: #ffffff85 !important;
+         }
+      }
+   }
+   .banner__form__content {
+      width: 28.47%;
+      height: 100%;
+      background: $basic_color;
+      justify-content: start;
+      padding: 38px!important;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 3;
+      &__label,
+      &__text {
+         width: 100%;
+      }
+      &__text {
+         margin: 0.5625em 0 2.0625em;
+         font-weight: 600;
+         font-size: 14px;
+         line-height: 17px;
+      }
+      &__details {
+         width: 100%;
+         input {
+            margin: 0;
+            &[type="submit"] {
+               background: $basic_red;
+               color: $white_color;
+            }
+         }
+      }
+   }
+   @media screen and (max-width: $maxMobile){
+      padding: 0;
+      background: transparent;
+      background-image: unset;
+      border-radius: unset;
+      flex-direction: column;
+      gap: 24px;
+      .welcome__banner__slider {
+         width: 100%;
+         margin-bottom: 2em;
+         min-height: 479px !important;
+         background: $basic_yellow;
+         background-image: url("../images/icons/znoroot 2.png"),
+            url("../images/icons/a1614600055_48-p-shkola-na-belom-fone-61\ 1.png"),
+            url("../images/icons/n.png"), url("../images/icons/Group dots1.png"),
+            url("../images/icons/Ver (1).png"), url("../images/icons/zloe.png"),
+            url("../images/icons/Vectovv.png");
+         background-size: auto, auto, 80%, 40%, 50%, 40%, 57%;
+         background-repeat: no-repeat;
+         background-position: bottom left, bottom right, bottom center,
+            center right, bottom left, center right, top right;
+            @include borderRadius;
+         .slick__item {
+            padding: 18px;
+            margin-top: 0;
+            h1 {
+            margin-top: 1.5em;
+            font-size: 40px;
+            line-height: 49px;
+            }
+            p {
+            font-size: 14px;
+            line-height: 17px;
+            }
+         }
+         .arrow {
+            margin: 0;
+            position: absolute;
+            top: 6%;
+            &.arrow__left {
+            margin: 0 auto 0 18px;
+            }
+            &.arrow__right {
+            margin: 0 18px 0 auto;
+            }
+         }
+      }
+      .banner__form__content {
+         width: 100%;
+         padding: 32px 18px!important;
+         position: initial;
+         min-height: 435px;
+   
+         &__label {
+            margin: 0;
+            font-size: 20px;
+            line-height: 24px;
+         }
+         &__text {
+            margin: 11px 0;
+            font-size: 12px;
+            line-height: 15px;
+         }
+      }
+   }
+}

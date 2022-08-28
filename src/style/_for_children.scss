@@ -1,0 +1,40 @@
+/*FOR CHILDREN SECTION STYLE START*/
+.for__children{
+   @include borderRadius;
+   background: #F2F2FF;
+   padding: 50px 0;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 24px;
+      .for__children__item{
+         width: 48%;
+         &__details{
+            &__label{
+               max-width: 80%;
+               margin-bottom: 24px;
+               font-size: 24px;
+               line-height: 29px;
+               color: $basic_color;
+            }
+            &__text{
+               margin: 0;
+               font-size: 14px;
+               line-height: 17px;
+               color: $text_color;
+            }
+         }
+   }
+   @media screen and (max-width: $maxMobile){
+      padding: 32px 18px;
+      gap: 20px;
+      .for__children__item{
+         width: 100%;
+         .for__children__item__details__label{
+            max-width: 100%;
+            margin-bottom: 10px;
+         }
+      }
+   }
+}
+/*FOR CHILDREN SECTION STYLE END*/

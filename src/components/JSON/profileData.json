@@ -1,0 +1,169 @@
+
+  [
+    {
+      "id": 1,
+      "avatarImg": "./images/Mask group.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 2,
+      "avatarImg": "./images/Mask groupp.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 3,
+      "avatarImg": "./images/Mask group.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 4,
+      "avatarImg": "./images/Mask groupp.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва",
+      "avatarSocials":{
+        "avatarInstagramLink": "/",
+        "avatarTelegramLink": "/",
+        "avatarVkLink": "/"
+      }
+      
+    },
+    {
+      "id": 5,
+      "avatarImg": "./images/Mask group.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 6,
+      "avatarImg": "./images/Mask groupp.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 7,
+      "avatarImg": "./images/Mask group.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 8,
+      "avatarImg": "./images/Mask groupp.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 9,
+      "avatarImg": "./images/Mask group.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 10,
+      "avatarImg": "./images/Mask groupp.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 11,
+      "avatarImg": "./images/Mask group.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 12,
+      "avatarImg": "./images/Mask groupp.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 13,
+      "avatarImg": "./images/Mask group.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 14,
+      "avatarImg": "./images/Mask groupp.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 15,
+      "avatarImg": "./images/Mask group.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    },
+    {
+      "id": 16,
+      "avatarImg": "./images/Mask groupp.png",
+      "avatarPosition":"Руководитель kids story",
+      "avatarName": "Журавлев Дмитрий Анатольевич",
+      "avatarProfession": "Педагог - психолог",
+      "avatarExperience": "Стаж 11 лет",
+      "feedbacksOwnerName": "Дмитрий",
+      "feedbacksOwnerLocation": "Москва"
+    }
+  ]

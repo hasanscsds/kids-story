@@ -1,0 +1,92 @@
+table{
+   thead{
+      tr{
+         th{
+            margin: 0 20px!important;
+            padding: 40px 0!important;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: $text_color;
+            text-align: center;
+            background: $basic_yellow!important;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            &:empty{
+               background: transparent!important;
+            }
+            &:first{
+               max-width: 100px;
+            }
+            &:not(:first-child){
+               max-width: 125px;
+            }
+         }
+      }
+   }
+   tbody{
+      tr{
+         td,
+         th{
+            max-height: 52px;
+            padding: 40px 0!important;
+            font-weight: 700;
+            border-bottom: 2px solid $basic_yellow;
+         }
+         th{
+            font-size: 12px;
+            line-height: 15px;
+            text-align: start;
+            color: $text_color;
+            width: 200px;
+         }
+         td{
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: $basic_color;
+            width: 100px;
+         }
+      }
+   }
+   @media screen and (max-width: $maxMobile){
+      thead{
+         tr{
+            th{
+               margin: 0!important;
+               padding: 6px 0!important;
+               font-size: 8px;
+               line-height: 10px;
+               &:first{
+                  max-width: 100px;
+               }
+               &:not(:first-child){
+                  max-width: 125px;
+               }
+            }
+         }
+      }
+      tbody{
+         tr{
+            td,
+            th{
+               max-height: 32px;
+               padding: 10px 0!important;
+            }
+            th{
+               font-size: 8px;
+               line-height: 10px;
+               width: 70px;
+            }
+            td{
+               font-size: 8px;
+               line-height: 10px;
+               width: 30px;
+            }
+         }
+      }
+   }
+}

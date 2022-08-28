@@ -1,0 +1,123 @@
+
+  [
+    {
+      "id": 1,
+      "title": "",
+      "featuresIcon": "./images/icons/feat9.png",
+      "bgColor": "rgba(246, 179, 31, 1)",
+      "dataKey": "Часы работы:",
+      "data": "с 7:00 до 19:00"
+    },
+    {
+      "id": 2,
+      "title": "",
+      "featuresIcon": "./images/icons/feat5.png",
+      "bgColor": "rgba(243, 172, 200, 1)",
+      "dataKey": "Группы:",
+      "data": "до 15 человек"
+    },
+    {
+      "id": 3,
+      "title": "",
+      "featuresIcon": "./images/icons/feat7.png",
+      "bgColor": "rgba(128, 129, 189, 1)",
+      "dataKey": "Площадь для прогулок:",
+      "data": "собственная оборудованная территория для прогулок"
+    },
+    {
+      "id": 4,
+      "title": "",
+      "featuresIcon": "./images/icons/feat8.png",
+      "bgColor": "rgba(128, 129, 189, 1)",
+      "dataKey": "Видеонаблюдение:",
+      "data": "онлайн"
+    },
+    {
+      "id": 5,
+      "title": "",
+      "featuresIcon": "./images/icons/feat2.png",
+      "bgColor": "rgba(246, 179, 31, 1)",
+      "dataKey": "Англоязычная среда:",
+      "data": "билингвал / экспат"
+    },
+    {
+      "id": 6,
+      "title": "",
+      "featuresIcon": "./images/icons/feat3.png",
+      "bgColor": "rgba(243, 172, 200, 1)",
+      "dataKey": "Возраст детей:",
+      "data": "с 1,5 до 7 лет"
+    },
+    {
+      "id": 7,
+      "title": "",
+      "featuresIcon": "./images/icons/feat4.png",
+      "bgColor": "rgba(243, 172, 200, 1)",
+      "dataKey": "Утренний фильтр медработником:",
+      "data": "ежедневно"
+    },
+    {
+      "id": 8,
+      "title": "",
+      "featuresIcon": "./images/icons/feat6.png",
+      "bgColor": "rgba(128, 129, 189, 1)",
+      "dataKey": "Помещение:",
+      "data": "800 кв.м"
+    },
+    {
+      "id": 9,
+      "title": "",
+      "featuresIcon": "./images/icons/features1.png",
+      "bgColor": "rgba(14, 149, 211, 1)",
+      "dataKey": "Питание:",
+      "data": "5-разовое, с учетом индивидуальных особенностей ребенка"
+    },
+        {
+      "id": 10,
+      "title": "",
+      "featuresIcon": "./images/icons/Group 20s.png",
+      "bgColor": "rgba(246, 179, 31, 1)",
+      "dataKey": "Мастер-классы",
+      "data": ""
+    },
+    {
+      "id": 11,
+      "title": "",
+      "featuresIcon": "./images/icons/Group 21.png",
+      "bgColor": "rgba(243, 172, 200, 1)",
+      "dataKey": "Игры-квесты",
+      "data": ""
+    },
+    {
+      "id": 12,
+      "title": "",
+      "featuresIcon": "./images/icons/Veyioctor.png",
+      "bgColor": "rgba(128, 129, 189, 1)",
+      "dataKey": "Конференции и проекты:",
+      "data": ""
+    },
+    {
+      "id": 13,
+      "title": "",
+      "featuresIcon": "./images/icons/Group 22.png",
+      "bgColor": "rgba(14, 149, 211, 1)",
+      "dataKey": "Опыты и эксперименты:",
+      "data": ""
+    },
+    {
+      "id": 14,
+      "title": "",
+      "featuresIcon": "./images/icons/Group 23.png",
+      "bgColor": "rgba(246, 179, 31, 1)",
+      "dataKey": "Концерты и спектакли",
+      "data": ""
+    },
+    {
+      "id": 15,
+      "title": "",
+      "featuresIcon": "./images/icons/features1.png",
+      "bgColor": "rgba(243, 172, 200, 1)",
+      "dataKey": "Соревнования",
+      "data": ""
+    }
+  ]

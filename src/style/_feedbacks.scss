@@ -1,0 +1,138 @@
+/*FEEDBACKS SECTION STYLE START*/
+   .feedbacks{
+      display: flex;
+      justify-content: start;
+      gap: 25px;
+      flex-wrap: wrap;
+   }
+   .feedbacks__item {
+      @include borderRadius;
+      max-width: 48%;
+      background: rgba(255, 246, 209, 1)!important;
+      padding: 2.1875em;
+      border-radius: 20px;
+      -webkit-border-radius: 20px!important;
+      -moz-border-radius: 20px!important;
+      -ms-border-radius: 20px!important;
+      -o-border-radius: 20px!important;
+      cursor: pointer;
+      &:hover,
+      &:focus{
+         background: rgba(242, 242, 255, 1)!important;
+      }
+      .feedbacks__content {
+         flex-wrap: wrap;
+         gap: 20px;
+      }
+   }
+   .avatar__details {
+      padding: 0;
+      display: flex;
+      gap: 1.25em;
+      align-items: center;
+      .feedbacks__avatar{
+         width: 3.75em;
+         height: 3.75em;
+         overflow: hidden;
+         background: $basic_color;
+         border-radius: 30px;
+         transform: translate(-50% -50%);
+         -webkit-transform: translate(-50% -50%);
+         -moz-transform: translate(-50% -50%);
+         -ms-transform: translate(-50% -50%);
+         -o-transform: translate(-50% -50%);
+         .img{
+            width: 100%;
+            height: 100%;
+         }
+      }
+      .avatar__text {
+         h5,
+         span {
+            margin: 0;
+            width: 100%;
+         color: $text_color;
+         }
+         .avatar__location {
+         font-weight: 500;
+         font-size: 0.875em;
+         line-height: 1.0625rem;
+         }
+      }
+   }
+   .app__feedbacks__slider__section {
+      @include borderRadius;
+      @include transition;
+      height: fit-content;
+      background: rgba(242, 242, 255, 1);
+      position: relative;
+      background-image: url("../images/icons/Vectorcdcd.png");
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: auto;
+   
+      .feedbacks__slider{
+         .feedbacks__item {
+            max-width: 594px;
+            margin: 0 auto;
+            background-color: $white_color!important;
+            .button{
+               display: none;
+            }
+         }
+      }
+   }
+   .feedbacks__modal__content{
+      display: flex;
+      align-content: start;
+      flex-direction: column;
+      .source__btn{
+         margin: 0 auto;
+         background: $basic_yellow;
+         color: $text-color;
+      }
+   }
+   @media screen and (max-width: $maxMobile){
+      .feedbacks__item {
+         max-width: 100%;
+         padding: 24px 20px;
+         position: relative;
+         .feedbacks__content {
+            margin: 17px 20px;
+            flex-direction: column;
+            .feedbacks__text {
+               margin-top: 17px;
+            }
+            .link__btn {
+               font-size: 14px;
+               line-height: 17px;
+            }
+            .button{
+               width: 100%;
+            }
+         }
+      }
+      .avatar__details {
+         gap: 17px;
+         .feedbacks__avatar {
+         width: 37px;
+         height: 37px;
+         }
+         .avatar__text {
+         .avatar__location {
+            font-size: 12px;
+            line-height: 15px;
+         }
+         }
+      }
+      .app__feedbacks__slider__section {
+         padding: 2em 0;
+      }
+      .feedbacks__modal__content{
+         padding: 18px!important;
+         .source__btn{
+            width: 100%;
+         }
+      }
+   }
+   /*FEEDBACKS SECTION STYLE END*/

@@ -1,0 +1,69 @@
+
+  [
+    {
+      "id": 1,
+      "servicesBg": "./images/йога1.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Vector (1).png",
+      "servicesLabel": "Йога"
+    },
+    {
+      "id": 2,
+      "servicesBg": "./images/монтессори 1.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Vector (2).png",
+      "servicesLabel": "Монтессори группа с уникальным древесинным оборудованием"
+    },
+    {
+      "id": 3,
+      "servicesBg": "./images/teaching+golf+to+children 1.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Vector (3).png",
+      "servicesLabel": "Гольф для малышей"
+    },
+    {
+      "id": 4,
+      "servicesBg": "./images/лего 1@2x.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Vector (4).png",
+      "servicesLabel": "Занятия с беговелами"
+    },
+    {
+      "id": 5,
+      "servicesBg": "./images/UylvXOx9iqM 1.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Vector (5).png",
+      "servicesLabel": "Легостроение и конструирование"
+    },
+    {
+      "id": 6,
+      "servicesBg": "./images/zanyatiya-po-vokalu 1.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Vector (6).png",
+      "servicesLabel": "Тестопластика и глинопластика"
+    },
+    {
+      "id": 7,
+      "servicesBg": "./images/182e3f122eae409e4bd3b1d00313d702 1.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Group 23.png",
+      "servicesLabel": "Риторика и ораторское мастерство"
+    },
+    {
+      "id": 8,
+      "servicesBg": "./images/978d55a25661c80564a9acbef8caf2a2 1.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Vector (7).png",
+      "servicesLabel": "Занятия по скалолазанию"
+    },
+    {
+      "id": 9,
+      "servicesBg": "./images/4918 1.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Vector (8).png",
+      "servicesLabel": "Театрализация на английском языке"
+    },
+    {
+      "id": 10,
+      "servicesBg": "./images/f06593775fca9f4417f3501119f7f6a3 1.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Vector (9).png",
+      "servicesLabel": "Кулинария и этикет сервисного стола"
+    },
+    {
+      "id": 11,
+      "servicesBg": "./images/hello_html_m3166ba9d 1.png",
+      "servicesIcon": "./images/icons/extra-services-icons/Vector (10).png",
+      "servicesLabel": "Песочная терапия. Работа на интерактивных столах и досках"
+    }
+  ]

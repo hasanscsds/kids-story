@@ -1,0 +1,205 @@
+/*CONTACTS BANNER SECTION STYLE START*/
+.banner__section{
+   margin: 6.25em auto;
+   position: relative!important;
+   overflow: visible!important;
+   border-radius: 20px;
+   .bg__image__wrapper__first,
+   .bg__image__wrapper__second{
+      min-width: 100%;
+      min-height: 30em;
+      background-size: auto;
+      position: absolute;
+      z-index: 0;
+      background-repeat: no-repeat;
+   }
+   .bg__image__wrapper__first{
+      bottom: 0!important;
+   }
+   .bg__image__wrapper__second{
+      bottom: -15%!important;
+   }
+   &.app__first__banner__section,
+   &.app__fourth__banner__section {
+   min-height: 22.5em;
+   background: $basic_color;
+   .bg__image__wrapper__first{
+      background-image: url("../images/icons/Positive_curious_schoolboy_in_casual_wear_looking_at_camera_through 1.png");
+      background-position: 76% bottom;
+      background-size: 20%;
+   }
+   .bg__image__wrapper__second{
+      background-image: url("../images/icons/Group 4.png");
+      background-position: 100% 47%;
+      background-size: 65%;
+
+   }
+   .banner__form__content__details {
+      input{
+         &[type="submit"] {
+            background: $basic_yellow;
+            color: $text_color;
+         }
+      }
+   }
+   }
+   &.app__second__banner__section {
+      background: rgba(255, 246, 209, 1);
+      .bg__image__wrapper__first{
+         background-image: url("../images/icons/norooot.png");
+         background-position: 88% bottom;
+         background-size: 30.5%;
+      }
+      .bg__image__wrapper__second{
+         background-image: url("../images/icons/Groupss 4.png");
+         background-position: 87% 55%;
+         background-size: 58%;
+      }
+
+      .banner__form__content {
+         &__label,
+         &__text {
+            color: $text_color;
+         }
+         &__details{
+            input{
+               background: $basic_yellow;
+               &[type="submit"] {
+                  background: $basic_red;
+                  color: $white_color;
+               }
+            }
+            .control{
+               color: $text_color;
+            }
+         }
+      }
+   }
+   &.app__third__banner__section {
+      background: #f3acc8;
+      .bg__image__wrapper__first{
+         background-image: url("../images/icons/xxx614600055_48-p-shkola-na-belom-fone-61 1.png");
+         background-position: 75% bottom;
+         background-size: 22.5%;
+      }
+      .bg__image__wrapper__second{
+         background-image: url("../images/icons/Grouxxxxxxxp 4.png");
+         background-position: 80% 53%;
+         background-size: 59%;
+      }
+
+         .banner__form__content{
+         &__label,
+         &__text {
+            color: $text_color;
+         }
+         &__details{
+            input{
+               &[type="submit"] {
+                  background: $basic_yellow;
+                  color: $white_color;
+               }
+            }
+            .control{
+               color: $text_color;
+            }
+         }
+      }
+   }
+   &.app__fourth__banner__section{
+      background-color: rgba(121, 188, 109, 1);
+   }
+}
+.banner__form__content {
+   @include borderRadius;
+   width: 100%;
+   padding: 2.5em 0;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: start;
+   z-index: 2;
+   &__label,
+   &__text {
+      color: $white_color;
+   }
+   &__label {
+      width: 50%;
+      margin: 0;
+   }
+   &__text {
+      width: 35%;
+      margin: 27px 0 31px;
+   }
+   &__details {
+      width: 50%;
+      display: flex;
+      align-items: start;
+      flex-wrap: wrap;
+      gap: 6px;
+      input {
+         &[type="number"]::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+         }
+         
+      }
+   }
+}
+
+
+
+
+@media screen and (max-width: $maxMobile){
+   .banner__form__content{
+      min-height: 571px;
+      &__label {
+         width: 100%;
+      }
+      &__text {
+         width: 100%;
+      }
+      &__details {
+         width: 100%;
+         input {
+            max-width: 100%;
+            &[value="отправить"]{
+               order: 3;
+            }
+         }
+      }
+   }
+   .banner__section{
+      margin: 3em auto;
+      &.app__first__banner__section,
+      &.app__fourth__banner__section{
+         .bg__image__wrapper__first{
+            background-size: 70%;
+         }
+         .bg__image__wrapper__second{
+            background-position: 79% 45%;
+            background-size: 200%;
+         }
+      }
+      &.app__second__banner__section{
+         .bg__image__wrapper__first{
+            background-position: 50% bottom;
+            background-size: 100%;
+         }
+         .bg__image__wrapper__second{
+            background-position: 69% 70%;
+            background-size: 230%;
+         }
+      }
+      &.app__third__banner__section{
+         .bg__image__wrapper__first{
+            background-position: bottom center;
+            background-size: 80%;
+         }
+         .bg__image__wrapper__second{
+            background-position: 81% 58%;
+            background-size: 223%;
+         }
+      }
+   }
+}
+/*CONTACTS BANNER SECTION STYLE END*/
